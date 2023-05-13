@@ -1,13 +1,130 @@
-body {
+/* Imported Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;700&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background-color: #23252C;
+}
+
+
+/* Styles for Information.js */
+.outer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 450px;
+  background-color: #1A1B21;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile{
+  width: 450px;
+}
+
+.name{
+  color: white;
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.job-role{
+  color: #F3BF99;
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 400;
+}
+
+.portfolio{
+  color: white;
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 300;
+  margin: 1rem 0rem;
+}
+
+.button-email{
+  padding: 0.5rem 1.75rem;
+  margin: 0.10rem 0.25rem;
+  border-radius: 5px;
+}
+
+.button-linkedin{
+  padding: 0.5rem 1.75rem;
+  margin: 0.10rem 0.25rem;
+  border-radius: 5px;
+  background-color: #5093E2;
+  color: white;
+}
+
+
+
+/* Styles for About.js */
+.about{
+  color: white;
+  font-family: 'Albert Sand', sans-serif;
+  padding: 1rem 2.3rem;
+}
+
+.about-title{
+  margin: 0.25rem 0rem;
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 700;
+}
+
+.about-text{
+  margin: 0.25rem 0rem;
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 300;
+}
+
+
+
+/* Styles for Interests.js */
+.interests{
+  color: white;
+  font-family: 'Albert Sans', sans-serif;
+  padding: 1rem 2.3rem;
+}
+
+.interests-title{
+  margin: 0.25rem 0rem;
+  font-weight: 700;
+}
+
+.interests-text{
+  margin: 0.25rem 0rem;
+  font-weight: 300;
+}
+
+
+/* Styles for Footer.js */
+.footer{
+  background-color: #161619;
+  margin-top: 1rem;
+  width: 450px;
+  padding: 1rem 6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.facebook-icon{
+  margin: 0.5rem 0.75rem;
+}
+
+.instagram-icon{
+  margin: 0.5rem 0.75rem;
+}
+
+.twitter-icon{
+  margin: 0.5rem 0.75rem;
 }
